@@ -1,0 +1,91 @@
+@media screen and (min-width: 480px) {
+
+	/***********************************
+	TWO COLUMN LAYOUT
+	***********************************/
+
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+
+/***********************************
+PAGE: PORTFOLIO
+	3 * (2.5% + 2.5%) = 15%
+	100% - 15% = 85%
+	85 / 3 = 28.333333333%
+***********************************/
+
+#gallery li {
+	width: 28.333333%;
+}
+
+#gallery li:nth-child(4n) {
+	clear: left;
+}
+
+/***********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+	float: left;
+	margin: 0 5% 150px 0;
+	max-width: 200px;
+}
+
+}
+
+@media screen and (min-width: 660px) {
+	
+/***********************************
+HEADER
+***********************************/
+
+nav {
+	background: none;
+	float: right;
+	font-size: 1.125em;
+	margin-right: 5%;
+	text-align: right;
+	width: 45%;
+}
+
+nav ul{
+white-space: nowrap;	
+}
+
+nav li {
+	display: inline-block; 
+}
+
+
+#logo {
+	margin-right: 0;
+	float: left;
+	margin-left: 5%;
+	text-align: left;
+	width: 45%;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 0.825em;
+	margin-bottom: 15px;
+}
+
+header {
+	border-bottom: 5px solid #c0392b;
+	margin-bottom: 60px;
+}
+
+}
